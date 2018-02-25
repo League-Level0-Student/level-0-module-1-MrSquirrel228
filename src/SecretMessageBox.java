@@ -18,21 +18,25 @@ public class SecretMessageBox {
 	// 0. Make a main method and put steps 1-5 inside it
 	public static void main(String[] args) {
 		
-	}
+	
 	// 1. Set a password in a String variable
-	String pass = "Aiden822";{
+
+	
 	// 2. Using a pop-up, ask the first person for a secret message and store it in a variable
-	String name = JOptionPane.showInputDialog("Give me a password");
-	if (name.equals("Aiden822")){
+	String password = JOptionPane.showInputDialog("Give me a password");
 	
-	
-	}}
+	String pass = JOptionPane.showInputDialog("Only you can see the secret message if you can guess the password");
+	if (password.equals(pass)){
+		
 		// 3. Now use a pop-up to tell the NEXT user that they can only see the secret message 
 	//    if they can guess the passcode
-	String name = JOptionPane.showInputDialog("Only you can see the secret message if you can guess the password");
+		JOptionPane.showMessageDialog(null,"Dogs are cool" );
+	}
 	
 	// 4. If their guess matches the password, show them the secret message
-
+		else {
+			JOptionPane.showMessageDialog(null, "INTRUDER!!");
+			}
 	// 5. If the password does not match, pop-up "INTRUDER!!"
 
-}
+}}
