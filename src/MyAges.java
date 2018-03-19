@@ -4,19 +4,10 @@ public class MyAges {
 
 public static void main(String[] args) {
 	
-for(int i=0,i,.args.)
-JOptionPane.showMessageDialog(null, "1");
-JOptionPane.showMessageDialog(null, "2");
-JOptionPane.showMessageDialog(null, "3");
-JOptionPane.showMessageDialog(null, "4");
-JOptionPane.showMessageDialog(null, "5");
-JOptionPane.showMessageDialog(null, "6");
-JOptionPane.showMessageDialog(null, "7");
-JOptionPane.showMessageDialog(null, "8");
-JOptionPane.showMessageDialog(null, "9");
-JOptionPane.showMessageDialog(null, "10");
-JOptionPane.showMessageDialog(null, "12");
-JOptionPane.showMessageDialog(null, "13");
+for (int i = 1; i < 14; i++) {
+	
+JOptionPane.showMessageDialog(null, i);
 
+}
 }	
 }
