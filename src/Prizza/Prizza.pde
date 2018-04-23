@@ -12,17 +12,18 @@ ellipse(450, 450, 380, 380);
 }
 void draw(){
 if(mousePressed){
-   double Tim =Math.random();
- if(Tim > .5){
+   double tim =Math.random();
+   print(tim);
+ if(tim > .5){
   fill(255, 255, 255);
-    ellipse (mouseX, mouseY, 60, 60);
+    //ellipse (mouseX, mouseY, 60, 60);
   PImage pepperoni = loadImage("pepperoni.ppm.gif");
 image(pepperoni, mouseX, mouseY);
 }
 else{
     fill(255, 255, 255);
-    ellipse (mouseX, mouseY, 60, 60);
-  PImage pepperoni = loadImage("");
-image(pepperoni, mouseX, mouseY);
+    //ellipse (mouseX, mouseY, 60, 60);
+  PImage cat = loadImage("http://beej.us/pizza/images/kitten.ppm.gif");
+image(cat, mouseX, mouseY);
 
 }}}
