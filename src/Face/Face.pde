@@ -9,17 +9,15 @@ fill(206, 196, 106);
 void draw(){
  if (mousePressed)
    println(mouseX +", "+ mouseY);
-  if(mouseX>mouseY ){
-   fill(); 
-  }
-  if(mouseY>mouseY){
-  
-  }
-    fill(13, 22, 250);
-ellipse(x, y, 10, 10);
- fill(#3B67E8);
+
+
+   fill(mouseX,mouseY,mouseX); 
+ 
+
+
+
 ellipse(610,218,20,20);
-fill(#3B67E8);
+
 ellipse(504,219,20,20);
 fill(0,0,0);
 ellipse(610,218,5,5);
