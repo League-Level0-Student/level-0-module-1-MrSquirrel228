@@ -3,11 +3,12 @@ int y = 600;
 
 void setup() {
 
-    background(0, 0, 40); size(800, 800);
+   size(800, 800);
 
 }
-
 void draw() {
+
+background(0, 0, 40); 
 rocket();
 y-=1;
 
@@ -15,7 +16,7 @@ y-=1;
 
 void rocket() {
 
-      fill(random(255), 0, 0);
+    fill(random(255), 0, 0);
     ellipse(x, y + 130, 90, 90);
     fill(248, 128, 0);
     ellipse(x, y + 115, 70, 70);
