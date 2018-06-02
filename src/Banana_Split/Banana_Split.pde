@@ -1,15 +1,13 @@
 int tim = 3;
 
 void setup(){
-
-}
-void draw (){
+size (200,200);
+background(#E500FF);
 if (tim > 0 ){
-  println("ice cream", 50, 50);
-tim --;}
-if (tim == 0){
-text ("banana", 50,50 );
+for(int i=0;i<4;i++){
+text("ice cream", 50,i*10);}}
 tim --;
-
-}
+text ("banana", 50,40 );
+tim --;}
+void draw (){
 }
